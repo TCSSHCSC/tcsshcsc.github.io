@@ -1,0 +1,7 @@
+author: "TCSSH CSC (台中二中電研社)"
+facebook: 
+    publisher: 381051548752007
+lang: zh_TW
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
