@@ -38,18 +38,13 @@ description: "我們是堅持推廣電腦科學的台中二中電腦研究社—
     border-radius: .3rem;  
   }
 </style>
-
-
-
-
 	</head>
-	<body class="landing">
-<header style="background-color:#646369;">
+	<header style="background-color:#646369;">
 <div class='container'>
 <nav class="navbar navbar-expand-lg navbar-dark bg-off">
   <div class="container-fluid">
 <a class="navbar-brand" href="#">
-  <img src="images/社徽.jpg">
+  <img src="pictures/logo.jpg">
 </a>
     <a class="navbar-brand" href="#">TCSSH CSC</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -90,8 +85,18 @@ description: "我們是堅持推廣電腦科學的台中二中電腦研究社—
   </div>
 </nav>
 </div>
-</header>
 
+<script type="text/javascript">
+$(function(){
+var sideslider = $(‘[data-toggle=collapse-side]’);
+var get_sidebar = sideslider.attr(‘data-target-sidebar’);
+var get_content = sideslider.attr(‘data-target-content’);
+sideslider.click(function(event){
+$(get_sidebar).toggleClass(‘in’);
+$(get_content).toggleClass(‘out’);
+});
+});
+</script>
 <style type="text/css">
 header nav img{
     width: 160px;
